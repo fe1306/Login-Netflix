@@ -1,56 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miraculous Wiki</title>
-    <!--rel e href sao obrigatorios-->
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Login | Netflix</title>
+   
+    <script defer src="js/script.js"></script>   
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/icon.png">
-    <script defer src="./js/script.js"></script>
-
 </head>
+
 <body>
-    <h1>Miraculous As Aventuras de Ladybug & Cat Noir</h1>
+    <div class="container">
+        <img class= "imagem-fundo" src="img/netflix logo.jpg" alt="">
+        <div class="container-form">
+            <img class=" logo" src="img/logo.png" alt="">
 
-    <div class= "containerLogo">
-    <img src="img/logo miraculous.png" title="Logo da Série Miraculous">
-</div>
-
-         
-
-    <div class="containerConteudo">
-        <img class="imgPersonagens" src="img/personagens.jpg">
-     <div class="container2">  
-    <p><b> As Aventuras de Ladybug & Cat Noir</b> (desde 2022) é uma série de animação francesa, criada por Thomas Astruc, e coproduzida pelos estúdios Zagtoon, Method Animation, Toei Animation, SAMG Animation, SK Broadband, e De Agostini.
-    Foi distribuída por PGS Entertainment, com o apoio da Bandai na produção dos brinquedos.
-    A série estreou na Coreia do Sul pelo canal Educational Broadcasting System a 1 de setembro de 2015 e no Disney Channel a 7 de dezembro do mesmo ano, sob o título de Lady Bug.
-    Na França estreou-se a 19 de outubro de 2015 na TF1, com o título de Miraculous, les aventures de Ladybug et Chat Noir.
-    No Brasil a série foi adquirida pelo canal pago Gloob, com estreia programada para 7 de março de 2016.</p>
-    
-
-    <h2>1°Primeira Temporada</h2>
-  
-    <p>Tendo a cidade de Paris como plano de fundo, a série relata as aventuras e desventuras de Marinette Dupain-Cheng. 
-       À primeira vista, Marinette é apenas uma aluna do ensino secundário, com uma enorme paixão pela moda. Mas na realidade, esta tem o poder de se transformar
-       numa super-heroína chamada Ladybug que tem o dever de salvar o mundo das garras do misterioso vilão Hawk Moth 
-       que usa os akumas para espalhar o caos e a destruição com o objetivo de obter os poderosos miraculous que permitem a transformação de Ladybug e 
-       de seu companheiro e confidente Cat Noir, o qual é secretamente a sua paixão, Adrien Agreste.</p>
-       </div>
+            <form>
+                <p>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="seu_nome@gmail.com" required>
+                
+                </p>
+                <p>
+                    <label for="senha">Senha:</label>
+                    <input id="senha" type="password" placeholder="********" required>
+                </p>
+                <button onclick="faz_login(event)">Acessar</button>
+            </form>
+            
+            <p>Ainda não tem conta? <a href="index2.html">Cadastre-se</a></p>
+        </div>
     </div>
-       <h2>Personagens Principais</h2>
-
-       <ul>
-          <a href="https://miraculousladybug.fandom.com/pt-br/wiki/Marinette_Dupain-Cheng" target="_blank"> <li>Marinette Dupain Cheng/Ladybug</li></a>
-          <a href="https://miraculousladybug.fandom.com/pt-br/wiki/Adrien_Agreste" target="_blank"><li>Adrien Agreste/Cat Noir</li></a>
-          <a href="https://miraculousladybug.fandom.com/pt-br/wiki/Gabriel_Agreste" target="_blank"><li>Gabriel Agreste/Hawk Moth</li></a>
-          <a href="https://miraculousladybug.fandom.com/wiki/Nino_Lahiffe" target="_blank"><li>Nino Lahiffe </li></a>
-          <a href="https://miraculousladybug.fandom.com/pt-br/wiki/Alya_C%C3%A9saire" target="_blank"><li>Alya Césair</li></a>
-          <a href="https://miraculousladybug.fandom.com/wiki/Chlo%C3%A9_Bourgeois" target="_blank"><li>Chloé Bourgeois</li></a>
-       </ul>
-
-    <a class= "link" href="pagina2.html" target="_blank">Temporada 6</a>
-
 </body>
-</html>
 
+</html>

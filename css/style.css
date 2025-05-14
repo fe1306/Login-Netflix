@@ -1,73 +1,71 @@
-/*comentario para a linha css*/
-
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    /*tudo do html*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-image: url("../img/background.jpg");
-    background-size: cover;
+    background-color: black;
+    color: white;
 }
 
-h1 {
-    font-family: "Exo 2", serif;
-    color:rgb(58, 2, 0)
-    
-}
-
-p {
-    font-family: "Exo 2", serif;
-    font-size:20px;
-}
-
-img {
-    width: 300px;
-    margin: 0px 150px;
-    
-}
-
-li {
-    font-family:  "Exo 2", serif;
-    font-size: 20px;
-}
-
-.link {
-    background-color: rgb(250, 12, 12);
-    font-family:  "Exo 2", serif;
-    font-size: 20px;
-    color: antiquewhite;
-    padding: 10px 20px;
-    border-radius: 30px 15px;
-    
-}
-
-
-.link:hover {
-    color: black;
-    background-color: rgb(9, 255, 0);
-    transition: 1s;
-}
-
-.containerConteudo{
-    background-color: rgb(245, 197, 205);
+.container{
     display: flex;
-    flex-direction: row-reverse;
+}
+.imagem-fundo{
+    width: 50%;
+    height: 100vh;/*tamanho vertical do dispositivo*/
+    min-width: 330px;
 }
 
-.container2{
-    flex-direction: column;
+.container-form{
+    width: 50%;
+    padding: 50px 100px;
+}
+
+.logo {
+    width: 30%;
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 0, 0);
 
 }
 
-.imgPersonagens{
-      margin: 0%;
-
+form {
+    margin-top: 50px;
 }
 
-.logoimg{
-    display: flex;
-    justify-content: center;
-
+form p {
+    margin-bottom: 15px;
 }
 
-.containerLogo {
-    background-color: white;
+form label {
+    display: block;
+    font-weight: bold; /*bold deixa em negrito*/
+    margin-bottom: 10px;
+}
+
+form input{
+    padding: 12px;
+    width: 60%;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+form input:focus{
+    outline: none;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+button {
+    background-color: rgb(27, 96, 245);
+    color: aliceblue;
+    width: 340px;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
